@@ -1,6 +1,7 @@
 # humans_movement_recognition
 
-![IDEF0 Diagram](https://github.com/agaltseva/humans_movement_recognition/blob/develop/movement_recognition/photo_2019-09-13_16-06-33.jpg)
+![IDEF0 Diagram](https://github.com/agaltseva/humans_movement_recognition/blob/develop/movement_recognition/imgs/IDEF0_v1.jpg)
+![TS classification scheme](https://github.com/agaltseva/humans_movement_recognition/blob/develop/movement_recognition/imgs/Diagramma_Terekhov.svg)
 
 ### Links to sources of code and articles
 
