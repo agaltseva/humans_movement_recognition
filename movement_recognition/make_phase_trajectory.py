@@ -32,18 +32,18 @@ def phase_track(segments: List[np.ndarray], length: int, n_components: int = 2) 
                                                      np.sum(model.explained_variance_ratio_)))
     return projection, basis
 
-# def to_phase_space(series, l):
-#     '''
-#     Get phase trajectory of series.
-#     Parameters:
-#     - `series`: 2Darray of shape [duration, 1]
-#     - `l`: dimensionality of feature space.
-#     Output:
-#     - `phase`: phase trajectory
-#     '''
-#
-#     phase = np.zeros([series.shape[0] - l, l])
-#
-#     for i in range(0, series.shape[0] - l):
-#         phase[i] = np.squeeze(series[i:i + l, 0])
-#     return phase
+def to_phase_trajectory(series, l):
+    '''
+    Get phase trajectory of series.
+    Parameters:
+    -series: 2Darray of shape [duration, 1]
+    -l: dimensionality of feature space.
+    Output:
+    -phase: phase trajectory
+    '''
+
+    phase = np.zeros([series.shape[0] - l, l])
+
+    for i in range(0, series.shape[0] - l):
+        phase[i] = np.squeeze(series[i:i + l])
+    return phase
