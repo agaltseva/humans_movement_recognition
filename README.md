@@ -10,8 +10,5 @@
  
 #### TS clussification
 1. [Karasikov code](https://sourceforge.net/p/mlalgorithms/code/HEAD/tree/Group174/Karasikov2015TimeSeriesClassification/)
-2. [Popova]( https://sourceforge.net/p/mlalgorithms/code/HEAD/tree/Group174/Popova2014SequentialSelection/
-) [m]
- 
- 
- 3. [Terekhov presentation](https://drive.google.com/file/d/1lIQPAh2GSjKu0UkcJca1y3az9r5xhhNO/view)
+2. [Ivanychev code](https://github.com/Intelligent-Systems-Phystech/BSThesis/tree/master/Ivanychev2018)
+3. [Terekhov presentation](https://drive.google.com/file/d/1lIQPAh2GSjKu0UkcJca1y3az9r5xhhNO/view)
