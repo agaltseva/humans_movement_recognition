@@ -71,6 +71,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
 
 # pyenv
 .python-version
@@ -102,3 +103,18 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+!/.gitignore
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/.ipynb_checkpoints/
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/feature_extraction.py
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/multiclass.py
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/timeseries.py
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/readme.md
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/ts_collected.ipynb
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/ts_USCHAD.ipynb
+/tests/mlalgorithms-code-r13962-Group174-Karasikov2015TimeSeriesClassification-code-python/ts_WISDM.ipynb
+/movement_recognition/Ivanychev2018/
+Learn.ipynb
+movement_recognition/Example.ipynb
+movement_recognition/Visuals.ipynb
+tests/notebooks/
