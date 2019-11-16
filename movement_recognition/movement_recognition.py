@@ -56,10 +56,12 @@ class MovementRecognizer:
 
     def pickup_ssa_model(self, trajectory: List[np.array]):  # pickup or select?
         try:
+            #part 4: make local model
             fitted = [ssa.Ssa(lag=lag).fit(trajectory) for lag in range(self.range_ssa_lag[0], self.range_ssa_lag[1])]
         except:
             print('too much a max value of lag')
         else:
+            #part 5: select local model
             Ls = [[distance.euclidean(trajectory[j], fitted[i].get_predicted()[j]) for j in range(len(trajectory))]
                   for i in range(len(fitted))]
 
